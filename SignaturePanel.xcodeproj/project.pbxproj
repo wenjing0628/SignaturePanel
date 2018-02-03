@@ -13,6 +13,15 @@
 		FFD148D6202565AC00BBC89C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD148D5202565AC00BBC89C /* Assets.xcassets */; };
 		FFD148D9202565AC00BBC89C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD148D7202565AC00BBC89C /* LaunchScreen.storyboard */; };
 		FFD148DC202565AC00BBC89C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD148DB202565AC00BBC89C /* main.m */; };
+		FFD148E4202567E300BBC89C /* HuaBanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD148E3202567E300BBC89C /* HuaBanViewController.m */; };
+		FFD148E72025691000BBC89C /* huabanView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD148E62025691000BBC89C /* huabanView.m */; };
+		FFD148EB202573DC00BBC89C /* SelectColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD148EA202573DC00BBC89C /* SelectColorPickerView.m */; };
+		FFD148EE2025747200BBC89C /* point.png in Resources */ = {isa = PBXBuildFile; fileRef = FFD148EC2025747200BBC89C /* point.png */; };
+		FFD148EF2025747200BBC89C /* ColorPalette.png in Resources */ = {isa = PBXBuildFile; fileRef = FFD148ED2025747200BBC89C /* ColorPalette.png */; };
+		FFD148F220257C5D00BBC89C /* SelectColorEasyView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD148F120257C5D00BBC89C /* SelectColorEasyView.m */; };
+		FFD148F520257D9400BBC89C /* UIColor+hex.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD148F320257D9400BBC89C /* UIColor+hex.m */; };
+		FFD148F820257DF700BBC89C /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD148F720257DF700BBC89C /* UIView+Extension.m */; };
+		FFD148FB2025851F00BBC89C /* YJBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD148FA2025851F00BBC89C /* YJBezierPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,23 @@
 		FFD148D8202565AC00BBC89C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFD148DA202565AC00BBC89C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFD148DB202565AC00BBC89C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFD148E2202567E300BBC89C /* HuaBanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuaBanViewController.h; sourceTree = "<group>"; };
+		FFD148E3202567E300BBC89C /* HuaBanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuaBanViewController.m; sourceTree = "<group>"; };
+		FFD148E52025691000BBC89C /* huabanView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = huabanView.h; sourceTree = "<group>"; };
+		FFD148E62025691000BBC89C /* huabanView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = huabanView.m; sourceTree = "<group>"; };
+		FFD148E9202573DC00BBC89C /* SelectColorPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectColorPickerView.h; sourceTree = "<group>"; };
+		FFD148EA202573DC00BBC89C /* SelectColorPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectColorPickerView.m; sourceTree = "<group>"; };
+		FFD148EC2025747200BBC89C /* point.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point.png; sourceTree = "<group>"; };
+		FFD148ED2025747200BBC89C /* ColorPalette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColorPalette.png; sourceTree = "<group>"; };
+		FFD148F020257C5D00BBC89C /* SelectColorEasyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectColorEasyView.h; sourceTree = "<group>"; };
+		FFD148F120257C5D00BBC89C /* SelectColorEasyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectColorEasyView.m; sourceTree = "<group>"; };
+		FFD148F320257D9400BBC89C /* UIColor+hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hex.m"; sourceTree = "<group>"; };
+		FFD148F420257D9400BBC89C /* UIColor+hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+hex.h"; sourceTree = "<group>"; };
+		FFD148F620257DF700BBC89C /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		FFD148F720257DF700BBC89C /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		FFD148F92025851F00BBC89C /* YJBezierPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJBezierPath.h; sourceTree = "<group>"; };
+		FFD148FA2025851F00BBC89C /* YJBezierPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJBezierPath.m; sourceTree = "<group>"; };
+		FFD148FC202585D100BBC89C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +88,38 @@
 				FFD148CD202565AC00BBC89C /* AppDelegate.m */,
 				FFD148CF202565AC00BBC89C /* ViewController.h */,
 				FFD148D0202565AC00BBC89C /* ViewController.m */,
+				FFD148E2202567E300BBC89C /* HuaBanViewController.h */,
+				FFD148E3202567E300BBC89C /* HuaBanViewController.m */,
+				FFD148E52025691000BBC89C /* huabanView.h */,
+				FFD148E62025691000BBC89C /* huabanView.m */,
+				FFD148F92025851F00BBC89C /* YJBezierPath.h */,
+				FFD148FA2025851F00BBC89C /* YJBezierPath.m */,
+				FFD148E820256B5F00BBC89C /* 取色板 */,
 				FFD148D2202565AC00BBC89C /* Main.storyboard */,
+				FFD148FC202585D100BBC89C /* PrefixHeader.pch */,
 				FFD148D5202565AC00BBC89C /* Assets.xcassets */,
 				FFD148D7202565AC00BBC89C /* LaunchScreen.storyboard */,
 				FFD148DA202565AC00BBC89C /* Info.plist */,
 				FFD148DB202565AC00BBC89C /* main.m */,
 			);
 			path = SignaturePanel;
+			sourceTree = "<group>";
+		};
+		FFD148E820256B5F00BBC89C /* 取色板 */ = {
+			isa = PBXGroup;
+			children = (
+				FFD148F620257DF700BBC89C /* UIView+Extension.h */,
+				FFD148F720257DF700BBC89C /* UIView+Extension.m */,
+				FFD148F420257D9400BBC89C /* UIColor+hex.h */,
+				FFD148F320257D9400BBC89C /* UIColor+hex.m */,
+				FFD148E9202573DC00BBC89C /* SelectColorPickerView.h */,
+				FFD148EA202573DC00BBC89C /* SelectColorPickerView.m */,
+				FFD148F020257C5D00BBC89C /* SelectColorEasyView.h */,
+				FFD148F120257C5D00BBC89C /* SelectColorEasyView.m */,
+				FFD148ED2025747200BBC89C /* ColorPalette.png */,
+				FFD148EC2025747200BBC89C /* point.png */,
+			);
+			path = "取色板";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +181,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFD148D9202565AC00BBC89C /* LaunchScreen.storyboard in Resources */,
+				FFD148EF2025747200BBC89C /* ColorPalette.png in Resources */,
 				FFD148D6202565AC00BBC89C /* Assets.xcassets in Resources */,
+				FFD148EE2025747200BBC89C /* point.png in Resources */,
 				FFD148D4202565AC00BBC89C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,9 +195,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFD148F820257DF700BBC89C /* UIView+Extension.m in Sources */,
 				FFD148D1202565AC00BBC89C /* ViewController.m in Sources */,
 				FFD148DC202565AC00BBC89C /* main.m in Sources */,
+				FFD148F220257C5D00BBC89C /* SelectColorEasyView.m in Sources */,
+				FFD148EB202573DC00BBC89C /* SelectColorPickerView.m in Sources */,
+				FFD148E72025691000BBC89C /* huabanView.m in Sources */,
+				FFD148F520257D9400BBC89C /* UIColor+hex.m in Sources */,
 				FFD148CE202565AC00BBC89C /* AppDelegate.m in Sources */,
+				FFD148FB2025851F00BBC89C /* YJBezierPath.m in Sources */,
+				FFD148E4202567E300BBC89C /* HuaBanViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +339,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U84SAUG39Q;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SignaturePanel/PrefixHeader.pch";
 				INFOPLIST_FILE = SignaturePanel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zwj.SignaturePanel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,7 +356,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U84SAUG39Q;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SignaturePanel/PrefixHeader.pch";
 				INFOPLIST_FILE = SignaturePanel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zwj.SignaturePanel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
